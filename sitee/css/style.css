@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+   
+    width: 100%;
+    height: 80px;
+}
+.icmenusol{
+    width: 60%;
+ 
+    height: 80px;
+    right: 0;
+    position: absolute;
+
+}
+.icmenusol ul,.icmenusag ul{
+    list-style: none;
+    
+}
+.icmenusol li,.icmenusag li{
+    float: left;
+    padding: 20px;
+    margin: 8px 0 0 0;
+    
+}
+.icmenusol a,.icmenusag a{
+    text-decoration: none;
+    color: #333333;
+    font-size: small;
+    font-weight: bold;
+   
+}
+#agac:hover{
+    color: #308C50;
+}
+#kan:hover{
+    color: #8C0707;
+}
+#hayvan:hover{
+    color: #E67F23;
+}
+#evsiz:hover{
+    color: #BFBFBA;
+}
+.icmenusag{
+    position: absolute;
+    right: 30px;
+}
+.icmenusol a:hover{
+    color: #bbb7b7 ;
+}
+.alan{
+    width: 100%;
+    height: 55px;
+    background-color: #308C50;
+    
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style >
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .menu{
+            
+            width: 100%;
+            height: 80px;
+        }
+        .icmenusol{
+            width: 60%;
+           
+            height: 80px;
+            right: 0;
+            position: absolute;
+
+        }
+        .icmenusol ul,.icmenusag ul{
+            list-style: none;
+            
+        }
+        .icmenusol li,.icmenusag li{
+            float: left;
+            padding: 20px;
+            margin: 8px 0 0 0;
+            
+        }
+        .icmenusol a,.icmenusag a{
+            border: 0;
+            text-decoration: none;
+            color: rgb(37, 32, 32);
+            font-size: small;
+           
+        }
+        .icmenusag{
+            position: absolute;
+            right: 30px;
+        }
+        #agac:hover{
+            color: #308C50;
+        }
+        #kan:hover{
+            color: #8C0707;
+        }
+        #hayvan:hover{
+            color: #E67F23;
+        }
+        #evsiz:hover{
+            color: #BFBFBA;
+        }
+        .icmenusol a:hover{
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="icmenusol">
+                <ul>
+                    <li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+                    <li><a href="agac.html" id="agac">AĞAÇ BAĞIŞI</a></li>
+                    <li><a href="hayvan.html" id="hayvan">HAYVAN BAĞIŞI</a></li>
+                    <li><a href="kan.html" id="kan">KAN BAĞIŞI</a></li>
+                    <li><a href="evsiz.html" id="evsiz">EVSİZ BAĞIŞI</a></li>
+                    
+                </ul>
+            </div>
+            <div class="cizgi">
+
+            </div>
+            <div class="icmenusag">
+                <ul><li><a href="#">ÖDEME</a></li></ul>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
